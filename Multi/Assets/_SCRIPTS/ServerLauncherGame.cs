@@ -25,7 +25,7 @@ public class ServerLauncherGame : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        PhotonNetwork.Instantiate (Player.name, spawn.position, spawm.rotation);
+        PhotonNetwork.Instantiate (Player.name, spawm.position, spawm.rotation);
     }
 
 }
